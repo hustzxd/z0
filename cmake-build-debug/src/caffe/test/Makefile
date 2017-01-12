@@ -1588,33 +1588,6 @@ test_rnn_layer.cpp.s:
 	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/test/CMakeFiles/test.testbin.dir/build.make src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.s
 .PHONY : test_rnn_layer.cpp.s
 
-test_route_layer.o: test_route_layer.cpp.o
-
-.PHONY : test_route_layer.o
-
-# target to build an object file
-test_route_layer.cpp.o:
-	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/test/CMakeFiles/test.testbin.dir/build.make src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o
-.PHONY : test_route_layer.cpp.o
-
-test_route_layer.i: test_route_layer.cpp.i
-
-.PHONY : test_route_layer.i
-
-# target to preprocess a source file
-test_route_layer.cpp.i:
-	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/test/CMakeFiles/test.testbin.dir/build.make src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.i
-.PHONY : test_route_layer.cpp.i
-
-test_route_layer.s: test_route_layer.cpp.s
-
-.PHONY : test_route_layer.s
-
-# target to generate assembly for a file
-test_route_layer.cpp.s:
-	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/test/CMakeFiles/test.testbin.dir/build.make src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.s
-.PHONY : test_route_layer.cpp.s
-
 test_scale_layer.o: test_scale_layer.cpp.o
 
 .PHONY : test_scale_layer.o
@@ -2217,9 +2190,6 @@ help:
 	@echo "... test_rnn_layer.o"
 	@echo "... test_rnn_layer.i"
 	@echo "... test_rnn_layer.s"
-	@echo "... test_route_layer.o"
-	@echo "... test_route_layer.i"
-	@echo "... test_route_layer.s"
 	@echo "... test_scale_layer.o"
 	@echo "... test_scale_layer.i"
 	@echo "... test_scale_layer.s"

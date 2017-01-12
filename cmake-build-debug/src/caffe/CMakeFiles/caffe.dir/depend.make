@@ -5318,7 +5318,6 @@ src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o: /usr/local/cuda-8.0/inclu
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o: /usr/local/cuda-8.0/include/vector_types.h
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o: include/caffe/proto/caffe.pb.h
 
-
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: ../include/caffe/blob.hpp
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: ../include/caffe/common.hpp
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: ../include/caffe/filler.hpp

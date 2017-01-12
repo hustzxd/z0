@@ -2014,9 +2014,6 @@
 		<Unit filename="/home/zxd/caffe/include/caffe/layers/rnn_layer.hpp">
 			<Option target="caffe"/>
 		</Unit>
-		<Unit filename="/home/zxd/caffe/include/caffe/layers/route_layer.hpp">
-			<Option target="caffe"/>
-		</Unit>
 		<Unit filename="/home/zxd/caffe/include/caffe/layers/scale_layer.hpp">
 			<Option target="caffe"/>
 		</Unit>
@@ -2449,9 +2446,6 @@
 		<Unit filename="/home/zxd/caffe/src/caffe/layers/rnn_layer.cpp">
 			<Option target="caffe"/>
 		</Unit>
-		<Unit filename="/home/zxd/caffe/src/caffe/layers/route_layer.cpp">
-			<Option target="caffe"/>
-		</Unit>
 		<Unit filename="/home/zxd/caffe/src/caffe/layers/scale_layer.cpp">
 			<Option target="caffe"/>
 		</Unit>
@@ -2732,9 +2726,6 @@
 			<Option target="test.testbin"/>
 		</Unit>
 		<Unit filename="/home/zxd/caffe/src/caffe/test/test_rnn_layer.cpp">
-			<Option target="test.testbin"/>
-		</Unit>
-		<Unit filename="/home/zxd/caffe/src/caffe/test/test_route_layer.cpp">
 			<Option target="test.testbin"/>
 		</Unit>
 		<Unit filename="/home/zxd/caffe/src/caffe/test/test_scale_layer.cpp">
