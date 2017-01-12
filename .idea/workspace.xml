@@ -37,68 +37,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/proto.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/proto.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" afterPath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,8 +58,8 @@
       <file leaf-file-name="caffe.proto" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="389" column="44" lean-forward="true" selection-start-line="389" selection-start-column="44" selection-end-line="389" selection-end-column="44" />
+            <state relative-caret-position="3436">
+              <caret line="397" column="48" lean-forward="true" selection-start-line="397" selection-start-column="48" selection-end-line="397" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -131,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/include/caffe/layers/pooling_layer.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+              <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
               <folding>
                 <element signature="e#67#84#0" expanded="true" />
                 <element signature="e#372#388#0" expanded="true" />
@@ -630,7 +568,7 @@
       <updated>1484204157737</updated>
       <workItem from="1484204165226" duration="460000" />
       <workItem from="1484204688093" duration="1515000" />
-      <workItem from="1484206430132" duration="952000" />
+      <workItem from="1484206430132" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -639,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484205370839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add yolo2 test init">
+      <created>1484207420271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484207420271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2927000" />
+    <option name="totallyTimeSpent" value="3027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -686,7 +631,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="add yolo2 test init" />
+    <option name="LAST_COMMIT_MESSAGE" value="add yolo2 test init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -779,7 +725,7 @@
     <entry file="file://$PROJECT_DIR$/include/caffe/layers/pooling_layer.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding>
             <element signature="e#67#84#0" expanded="true" />
             <element signature="e#372#388#0" expanded="true" />
@@ -789,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="389" column="44" lean-forward="true" selection-start-line="389" selection-start-column="44" selection-end-line="389" selection-end-column="44" />
+        <state relative-caret-position="3436">
+          <caret line="397" column="48" lean-forward="true" selection-start-line="397" selection-start-column="48" selection-end-line="397" selection-end-column="48" />
           <folding />
         </state>
       </provider>
