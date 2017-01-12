@@ -1312,33 +1312,9 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o.provides: src/ca
 src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o.provides.build: src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o
 
 
-src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
-src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o: ../src/caffe/test/test_route_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o"
-	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_route_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_route_layer.cpp
-
-src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.testbin.dir/test_route_layer.cpp.i"
-	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxd/caffe/src/caffe/test/test_route_layer.cpp > CMakeFiles/test.testbin.dir/test_route_layer.cpp.i
-
-src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.testbin.dir/test_route_layer.cpp.s"
-	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxd/caffe/src/caffe/test/test_route_layer.cpp -o CMakeFiles/test.testbin.dir/test_route_layer.cpp.s
-
-src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.requires:
-
-.PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.requires
-
-src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.provides: src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.requires
-	$(MAKE) -f src/caffe/test/CMakeFiles/test.testbin.dir/build.make src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.provides.build
-.PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.provides
-
-src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.provides.build: src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o
-
-
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o: ../src/caffe/test/test_scale_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_scale_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.i: cmake_force
@@ -1362,7 +1338,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o: ../src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.i: cmake_force
@@ -1386,7 +1362,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o: ../src/caffe/test/test_slice_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_slice_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.i: cmake_force
@@ -1410,7 +1386,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o: ../src/caffe/test/test_softmax_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_softmax_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.i: cmake_force
@@ -1434,7 +1410,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o: ../src/caffe/test/test_softmax_with_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.i: cmake_force
@@ -1458,7 +1434,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o.pr
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o: ../src/caffe/test/test_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_solver.cpp.o -c /home/zxd/caffe/src/caffe/test/test_solver.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.i: cmake_force
@@ -1482,7 +1458,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver.cpp.o.provides.build: src
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o: ../src/caffe/test/test_solver_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o -c /home/zxd/caffe/src/caffe/test/test_solver_factory.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.i: cmake_force
@@ -1506,7 +1482,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o.provides.bu
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o: ../src/caffe/test/test_split_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_split_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_split_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.i: cmake_force
@@ -1530,7 +1506,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_split_layer.cpp.o.provides.build
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o: ../src/caffe/test/test_spp_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_spp_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.i: cmake_force
@@ -1554,7 +1530,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o: ../src/caffe/test/test_stochastic_pooling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o -c /home/zxd/caffe/src/caffe/test/test_stochastic_pooling.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.i: cmake_force
@@ -1578,7 +1554,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o.provide
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o: ../src/caffe/test/test_syncedmem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o -c /home/zxd/caffe/src/caffe/test/test_syncedmem.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.i: cmake_force
@@ -1602,7 +1578,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o.provides.build: 
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o: ../src/caffe/test/test_tanh_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_tanh_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.i: cmake_force
@@ -1626,7 +1602,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o: ../src/caffe/test/test_threshold_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_threshold_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.i: cmake_force
@@ -1650,7 +1626,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o.provides.b
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o: ../src/caffe/test/test_tile_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o -c /home/zxd/caffe/src/caffe/test/test_tile_layer.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.i: cmake_force
@@ -1674,7 +1650,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o.provides.build:
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o: ../src/caffe/test/test_upgrade_proto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o -c /home/zxd/caffe/src/caffe/test/test_upgrade_proto.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.i: cmake_force
@@ -1698,7 +1674,7 @@ src/caffe/test/CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o.provides.bui
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o: src/caffe/test/CMakeFiles/test.testbin.dir/flags.make
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o: ../src/caffe/test/test_util_blas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.testbin.dir/test_util_blas.cpp.o -c /home/zxd/caffe/src/caffe/test/test_util_blas.cpp
 
 src/caffe/test/CMakeFiles/test.testbin.dir/test_util_blas.cpp.i: cmake_force
@@ -1774,7 +1750,6 @@ test_testbin_OBJECTS = \
 "CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o" \
 "CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o" \
 "CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o" \
-"CMakeFiles/test.testbin.dir/test_route_layer.cpp.o" \
 "CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o" \
 "CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o" \
 "CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o" \
@@ -1848,7 +1823,6 @@ test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_random_numb
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o
-test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o
@@ -1908,7 +1882,7 @@ test/test.testbin-d: /usr/lib/libatlas.so
 test/test.testbin-d: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 test/test.testbin-d: /usr/lib/x86_64-linux-gnu/libboost_python.so
 test/test.testbin-d: src/caffe/test/CMakeFiles/test.testbin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable ../../../test/test.testbin-d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable ../../../test/test.testbin-d"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.testbin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1968,7 +1942,6 @@ src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/t
 src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o.requires
 src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o.requires
 src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o.requires
-src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o.requires
 src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o.requires
 src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o.requires
 src/caffe/test/CMakeFiles/test.testbin.dir/requires: src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o.requires

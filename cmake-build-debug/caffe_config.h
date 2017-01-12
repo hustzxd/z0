@@ -9,7 +9,8 @@
 
 /* NVIDA cuDNN */
 #define HAVE_CUDNN
-#define USE_CUDNN
+//#define USE_CUDNN
+//Check failed: status == CUDNN_STATUS_SUCCESS (6 vs. 0)  CUDNN_STATUS_ARCH_MISMATCH
 
 /* NVIDA cuDNN */
 /* #undef CPU_ONLY */
