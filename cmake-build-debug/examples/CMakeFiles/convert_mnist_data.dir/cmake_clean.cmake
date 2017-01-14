@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o"
+  "CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o"
   "mnist/convert_mnist_data-d.pdb"
   "mnist/convert_mnist_data-d"
 )

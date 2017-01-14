@@ -28440,9 +28440,33 @@ src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o.provides: src/caffe/CMakeF
 src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o.provides.build: src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o
 
 
+src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
+src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o: ../src/caffe/layers/route_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o"
+	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/route_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/route_layer.cpp
+
+src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/caffe.dir/layers/route_layer.cpp.i"
+	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxd/caffe/src/caffe/layers/route_layer.cpp > CMakeFiles/caffe.dir/layers/route_layer.cpp.i
+
+src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/caffe.dir/layers/route_layer.cpp.s"
+	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxd/caffe/src/caffe/layers/route_layer.cpp -o CMakeFiles/caffe.dir/layers/route_layer.cpp.s
+
+src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.requires:
+
+.PHONY : src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.requires
+
+src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.provides: src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.requires
+	$(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.provides.build
+.PHONY : src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.provides
+
+src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.provides.build: src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o
+
+
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o: ../src/caffe/layers/scale_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/scale_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/scale_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.i: cmake_force
@@ -28466,7 +28490,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o: ../src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.i: cmake_force
@@ -28490,7 +28514,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o.pro
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o: ../src/caffe/layers/sigmoid_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/sigmoid_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.i: cmake_force
@@ -28514,7 +28538,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o: ../src/caffe/layers/silence_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/silence_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/silence_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.i: cmake_force
@@ -28538,7 +28562,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/silence_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o: ../src/caffe/layers/slice_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/slice_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/slice_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.i: cmake_force
@@ -28562,7 +28586,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/slice_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o: ../src/caffe/layers/softmax_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/softmax_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.i: cmake_force
@@ -28586,7 +28610,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o.provides.build: src/ca
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o: ../src/caffe/layers/softmax_loss_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/softmax_loss_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.i: cmake_force
@@ -28610,7 +28634,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o.provides.build: s
 
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o: ../src/caffe/layers/split_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/split_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/split_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.i: cmake_force
@@ -28634,7 +28658,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/split_layer.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o: ../src/caffe/layers/spp_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/spp_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/spp_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.i: cmake_force
@@ -28658,7 +28682,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/spp_layer.cpp.o.provides.build: src/caffe/
 
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o: ../src/caffe/layers/tanh_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/tanh_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.i: cmake_force
@@ -28682,7 +28706,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o: ../src/caffe/layers/threshold_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/threshold_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.i: cmake_force
@@ -28706,7 +28730,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o: ../src/caffe/layers/tile_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/tile_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/tile_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.i: cmake_force
@@ -28730,7 +28754,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/tile_layer.cpp.o.provides.build: src/caffe
 
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o: ../src/caffe/layers/window_data_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/window_data_layer.cpp
 
 src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.i: cmake_force
@@ -28754,7 +28778,7 @@ src/caffe/CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o.provides.build: sr
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/net.cpp.o: ../src/caffe/net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object src/caffe/CMakeFiles/caffe.dir/net.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object src/caffe/CMakeFiles/caffe.dir/net.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/net.cpp.o -c /home/zxd/caffe/src/caffe/net.cpp
 
 src/caffe/CMakeFiles/caffe.dir/net.cpp.i: cmake_force
@@ -28778,7 +28802,7 @@ src/caffe/CMakeFiles/caffe.dir/net.cpp.o.provides.build: src/caffe/CMakeFiles/ca
 
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o: ../src/caffe/parallel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/parallel.cpp.o -c /home/zxd/caffe/src/caffe/parallel.cpp
 
 src/caffe/CMakeFiles/caffe.dir/parallel.cpp.i: cmake_force
@@ -28802,7 +28826,7 @@ src/caffe/CMakeFiles/caffe.dir/parallel.cpp.o.provides.build: src/caffe/CMakeFil
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.o: ../src/caffe/solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solver.cpp.o -c /home/zxd/caffe/src/caffe/solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solver.cpp.i: cmake_force
@@ -28826,7 +28850,7 @@ src/caffe/CMakeFiles/caffe.dir/solver.cpp.o.provides.build: src/caffe/CMakeFiles
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o: ../src/caffe/solvers/adadelta_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o -c /home/zxd/caffe/src/caffe/solvers/adadelta_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.i: cmake_force
@@ -28850,7 +28874,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o: ../src/caffe/solvers/adagrad_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o -c /home/zxd/caffe/src/caffe/solvers/adagrad_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.i: cmake_force
@@ -28874,7 +28898,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o: ../src/caffe/solvers/adam_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o -c /home/zxd/caffe/src/caffe/solvers/adam_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.i: cmake_force
@@ -28898,7 +28922,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o: ../src/caffe/solvers/nesterov_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o -c /home/zxd/caffe/src/caffe/solvers/nesterov_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.i: cmake_force
@@ -28922,7 +28946,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o.provides.build: src
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o: ../src/caffe/solvers/rmsprop_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o -c /home/zxd/caffe/src/caffe/solvers/rmsprop_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.i: cmake_force
@@ -28946,7 +28970,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o.provides.build: src/
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: ../src/caffe/solvers/sgd_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o -c /home/zxd/caffe/src/caffe/solvers/sgd_solver.cpp
 
 src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.i: cmake_force
@@ -28970,7 +28994,7 @@ src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o: ../src/caffe/syncedmem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/syncedmem.cpp.o -c /home/zxd/caffe/src/caffe/syncedmem.cpp
 
 src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.i: cmake_force
@@ -28994,7 +29018,7 @@ src/caffe/CMakeFiles/caffe.dir/syncedmem.cpp.o.provides.build: src/caffe/CMakeFi
 
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o: ../src/caffe/util/benchmark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/benchmark.cpp.o -c /home/zxd/caffe/src/caffe/util/benchmark.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.i: cmake_force
@@ -29018,7 +29042,7 @@ src/caffe/CMakeFiles/caffe.dir/util/benchmark.cpp.o.provides.build: src/caffe/CM
 
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o: ../src/caffe/util/blocking_queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/blocking_queue.cpp.o -c /home/zxd/caffe/src/caffe/util/blocking_queue.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.i: cmake_force
@@ -29042,7 +29066,7 @@ src/caffe/CMakeFiles/caffe.dir/util/blocking_queue.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o: ../src/caffe/util/cudnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/cudnn.cpp.o -c /home/zxd/caffe/src/caffe/util/cudnn.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.i: cmake_force
@@ -29066,7 +29090,7 @@ src/caffe/CMakeFiles/caffe.dir/util/cudnn.cpp.o.provides.build: src/caffe/CMakeF
 
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o: ../src/caffe/util/db.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db.cpp.o -c /home/zxd/caffe/src/caffe/util/db.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/db.cpp.i: cmake_force
@@ -29090,7 +29114,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db.cpp.o.provides.build: src/caffe/CMakeFile
 
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o: ../src/caffe/util/db_leveldb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_leveldb.cpp.o -c /home/zxd/caffe/src/caffe/util/db_leveldb.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.i: cmake_force
@@ -29114,7 +29138,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db_leveldb.cpp.o.provides.build: src/caffe/C
 
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o: ../src/caffe/util/db_lmdb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/db_lmdb.cpp.o -c /home/zxd/caffe/src/caffe/util/db_lmdb.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.i: cmake_force
@@ -29138,7 +29162,7 @@ src/caffe/CMakeFiles/caffe.dir/util/db_lmdb.cpp.o.provides.build: src/caffe/CMak
 
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o: ../src/caffe/util/hdf5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/hdf5.cpp.o -c /home/zxd/caffe/src/caffe/util/hdf5.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.i: cmake_force
@@ -29162,7 +29186,7 @@ src/caffe/CMakeFiles/caffe.dir/util/hdf5.cpp.o.provides.build: src/caffe/CMakeFi
 
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o: ../src/caffe/util/im2col.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/im2col.cpp.o -c /home/zxd/caffe/src/caffe/util/im2col.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.i: cmake_force
@@ -29186,7 +29210,7 @@ src/caffe/CMakeFiles/caffe.dir/util/im2col.cpp.o.provides.build: src/caffe/CMake
 
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o: ../src/caffe/util/insert_splits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/insert_splits.cpp.o -c /home/zxd/caffe/src/caffe/util/insert_splits.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.i: cmake_force
@@ -29210,7 +29234,7 @@ src/caffe/CMakeFiles/caffe.dir/util/insert_splits.cpp.o.provides.build: src/caff
 
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o: ../src/caffe/util/io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/io.cpp.o -c /home/zxd/caffe/src/caffe/util/io.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/io.cpp.i: cmake_force
@@ -29234,7 +29258,7 @@ src/caffe/CMakeFiles/caffe.dir/util/io.cpp.o.provides.build: src/caffe/CMakeFile
 
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o: ../src/caffe/util/math_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/math_functions.cpp.o -c /home/zxd/caffe/src/caffe/util/math_functions.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.i: cmake_force
@@ -29258,7 +29282,7 @@ src/caffe/CMakeFiles/caffe.dir/util/math_functions.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o: ../src/caffe/util/signal_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/signal_handler.cpp.o -c /home/zxd/caffe/src/caffe/util/signal_handler.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.i: cmake_force
@@ -29282,7 +29306,7 @@ src/caffe/CMakeFiles/caffe.dir/util/signal_handler.cpp.o.provides.build: src/caf
 
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o: src/caffe/CMakeFiles/caffe.dir/flags.make
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o: ../src/caffe/util/upgrade_proto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o -c /home/zxd/caffe/src/caffe/util/upgrade_proto.cpp
 
 src/caffe/CMakeFiles/caffe.dir/util/upgrade_proto.cpp.i: cmake_force
@@ -29371,6 +29395,7 @@ caffe_OBJECTS = \
 "CMakeFiles/caffe.dir/layers/relu_layer.cpp.o" \
 "CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o" \
 "CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o" \
+"CMakeFiles/caffe.dir/layers/route_layer.cpp.o" \
 "CMakeFiles/caffe.dir/layers/scale_layer.cpp.o" \
 "CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o" \
 "CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o" \
@@ -29535,6 +29560,7 @@ lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/reduction_lay
 lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o
 lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o
 lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o
+lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o
 lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o
 lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o
 lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o
@@ -29693,7 +29719,7 @@ lib/libcaffe-d.so.1.0.0-rc3: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 lib/libcaffe-d.so.1.0.0-rc3: /usr/lib/x86_64-linux-gnu/libboost_python.so
 lib/libcaffe-d.so.1.0.0-rc3: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 lib/libcaffe-d.so.1.0.0-rc3: src/caffe/CMakeFiles/caffe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Linking CXX shared library ../../lib/libcaffe-d.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Linking CXX shared library ../../lib/libcaffe-d.so"
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/caffe.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/zxd/caffe/cmake-build-debug/src/caffe && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/libcaffe-d.so.1.0.0-rc3 ../../lib/libcaffe-d.so.1.0.0-rc3 ../../lib/libcaffe-d.so
 
@@ -29770,6 +29796,7 @@ src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/r
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/relu_layer.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o.requires
+src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/scale_layer.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o.requires
 src/caffe/CMakeFiles/caffe.dir/requires: src/caffe/CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o.requires

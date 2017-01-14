@@ -81,14 +81,40 @@ examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o.provid
 examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o.provides.build: examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o
 
 
+examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o: examples/CMakeFiles/convert_mnist_data.dir/flags.make
+examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o: ../src/caffe/layers/route_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o"
+	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/route_layer.cpp
+
+examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.i"
+	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxd/caffe/src/caffe/layers/route_layer.cpp > CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.i
+
+examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.s"
+	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxd/caffe/src/caffe/layers/route_layer.cpp -o CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.s
+
+examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires:
+
+.PHONY : examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires
+
+examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides: examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires
+	$(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides.build
+.PHONY : examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides
+
+examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides.build: examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o
+
+
 # Object files for target convert_mnist_data
 convert_mnist_data_OBJECTS = \
-"CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o"
+"CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o" \
+"CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o"
 
 # External object files for target convert_mnist_data
 convert_mnist_data_EXTERNAL_OBJECTS =
 
 examples/mnist/convert_mnist_data-d: examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o
+examples/mnist/convert_mnist_data-d: examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o
 examples/mnist/convert_mnist_data-d: examples/CMakeFiles/convert_mnist_data.dir/build.make
 examples/mnist/convert_mnist_data-d: lib/libcaffe-d.so.1.0.0-rc3
 examples/mnist/convert_mnist_data-d: lib/libproto-d.a
@@ -130,7 +156,7 @@ examples/mnist/convert_mnist_data-d: /usr/lib/libatlas.so
 examples/mnist/convert_mnist_data-d: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 examples/mnist/convert_mnist_data-d: /usr/lib/x86_64-linux-gnu/libboost_python.so
 examples/mnist/convert_mnist_data-d: examples/CMakeFiles/convert_mnist_data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mnist/convert_mnist_data-d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mnist/convert_mnist_data-d"
 	cd /home/zxd/caffe/cmake-build-debug/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/convert_mnist_data.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/zxd/caffe/cmake-build-debug/examples && ln -sf /home/zxd/caffe/cmake-build-debug/examples/mnist/convert_mnist_data-d /home/zxd/caffe/cmake-build-debug/examples/mnist/convert_mnist_data-d.bin
 
@@ -140,6 +166,7 @@ examples/CMakeFiles/convert_mnist_data.dir/build: examples/mnist/convert_mnist_d
 .PHONY : examples/CMakeFiles/convert_mnist_data.dir/build
 
 examples/CMakeFiles/convert_mnist_data.dir/requires: examples/CMakeFiles/convert_mnist_data.dir/mnist/convert_mnist_data.cpp.o.requires
+examples/CMakeFiles/convert_mnist_data.dir/requires: examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires
 
 .PHONY : examples/CMakeFiles/convert_mnist_data.dir/requires
 

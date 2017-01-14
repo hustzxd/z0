@@ -2014,6 +2014,13 @@
 		<Unit filename="/home/zxd/caffe/include/caffe/layers/rnn_layer.hpp">
 			<Option target="caffe"/>
 		</Unit>
+		<Unit filename="/home/zxd/caffe/include/caffe/layers/route_layer.hpp">
+			<Option target="caffe"/>
+			<Option target="convert_mnist_data"/>
+			<Option target="convert_mnist_siamese_data"/>
+			<Option target="classification"/>
+			<Option target="convert_cifar_data"/>
+		</Unit>
 		<Unit filename="/home/zxd/caffe/include/caffe/layers/scale_layer.hpp">
 			<Option target="caffe"/>
 		</Unit>
@@ -2445,6 +2452,13 @@
 		</Unit>
 		<Unit filename="/home/zxd/caffe/src/caffe/layers/rnn_layer.cpp">
 			<Option target="caffe"/>
+		</Unit>
+		<Unit filename="/home/zxd/caffe/src/caffe/layers/route_layer.cpp">
+			<Option target="caffe"/>
+			<Option target="convert_mnist_data"/>
+			<Option target="convert_mnist_siamese_data"/>
+			<Option target="classification"/>
+			<Option target="convert_cifar_data"/>
 		</Unit>
 		<Unit filename="/home/zxd/caffe/src/caffe/layers/scale_layer.cpp">
 			<Option target="caffe"/>

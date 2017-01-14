@@ -29,7 +29,7 @@
 -- ******************* Caffe Configuration Summary *******************
 -- General:
 --   Version           :   1.0.0-rc3
---   Git               :   e802b5b-dirty
+--   Git               :   1fed0b7-dirty
 --   System            :   Linux
 --   C++ compiler      :   /usr/bin/c++
 --   Release CXX flags :   -O3 -DNDEBUG -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
