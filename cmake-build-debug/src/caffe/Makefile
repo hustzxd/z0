@@ -1966,6 +1966,33 @@ layers/rnn_layer.cpp.s:
 	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/layers/rnn_layer.cpp.s
 .PHONY : layers/rnn_layer.cpp.s
 
+layers/route_layer.o: layers/route_layer.cpp.o
+
+.PHONY : layers/route_layer.o
+
+# target to build an object file
+layers/route_layer.cpp.o:
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.o
+.PHONY : layers/route_layer.cpp.o
+
+layers/route_layer.i: layers/route_layer.cpp.i
+
+.PHONY : layers/route_layer.i
+
+# target to preprocess a source file
+layers/route_layer.cpp.i:
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.i
+.PHONY : layers/route_layer.cpp.i
+
+layers/route_layer.s: layers/route_layer.cpp.s
+
+.PHONY : layers/route_layer.s
+
+# target to generate assembly for a file
+layers/route_layer.cpp.s:
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/layers/route_layer.cpp.s
+.PHONY : layers/route_layer.cpp.s
+
 layers/scale_layer.o: layers/scale_layer.cpp.o
 
 .PHONY : layers/scale_layer.o
@@ -3150,6 +3177,9 @@ help:
 	@echo "... layers/rnn_layer.o"
 	@echo "... layers/rnn_layer.i"
 	@echo "... layers/rnn_layer.s"
+	@echo "... layers/route_layer.o"
+	@echo "... layers/route_layer.i"
+	@echo "... layers/route_layer.s"
 	@echo "... layers/scale_layer.o"
 	@echo "... layers/scale_layer.i"
 	@echo "... layers/scale_layer.s"
