@@ -36,56 +36,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/caffe/layers/route_layer.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/caffe/layers/route_layer.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/mnist/mnist_test_lmdb/lock.mdb" afterPath="$PROJECT_DIR$/examples/mnist/mnist_test_lmdb/lock.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/symlink_to_build.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/symlink_to_build.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Caffe.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Caffe.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/caffe_config.h" afterPath="$PROJECT_DIR$/cmake-build-debug/caffe_config.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/pycaffe.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/pycaffe.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/proto.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/proto.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/gtest/CMakeFiles/gtest.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/caffe.bin.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/caffe.bin.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/compute_image_mean.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/compute_image_mean.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/device_query.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/device_query.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/extract_features.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/extract_features.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/finetune_net.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/finetune_net.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/net_speed_benchmark.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/net_speed_benchmark.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -717,7 +668,7 @@
       <workItem from="1484209964266" duration="10930000" />
       <workItem from="1484227743751" duration="1635000" />
       <workItem from="1484291952999" duration="9305000" />
-      <workItem from="1484359941361" duration="1149000" />
+      <workItem from="1484359941361" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -768,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484294336907</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="不用添加Route和Reorg层？？">
+      <created>1484369534753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1484369534753</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28359000" />
+    <option name="totallyTimeSpent" value="28493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,7 +743,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27013177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -819,7 +777,8 @@
     <MESSAGE value="可以在Clion上运行" />
     <MESSAGE value="可以在Clion上运行-clean" />
     <MESSAGE value="添加proto，定义了Route和Reorg层的参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加proto，定义了Route和Reorg层的参数" />
+    <MESSAGE value="不用添加Route和Reorg层？？" />
+    <option name="LAST_COMMIT_MESSAGE" value="不用添加Route和Reorg层？？" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
