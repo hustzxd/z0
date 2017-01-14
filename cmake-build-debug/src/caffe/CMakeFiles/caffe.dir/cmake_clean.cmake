@@ -126,6 +126,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/caffe.dir/layers/relu_layer.cpp.o"
   "CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o"
   "CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o"
+  "CMakeFiles/caffe.dir/layers/route_layer.cpp.o"
   "CMakeFiles/caffe.dir/layers/scale_layer.cpp.o"
   "CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o"
   "CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o"
