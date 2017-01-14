@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zxd/caffe/src/caffe/layers/route_layer.cpp" "/home/zxd/caffe/cmake-build-debug/examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o"
   "/home/zxd/caffe/examples/cpp_classification/classification.cpp" "/home/zxd/caffe/cmake-build-debug/examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

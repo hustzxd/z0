@@ -214,6 +214,42 @@ convert_cifar_data/fast:
 	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/build
 .PHONY : convert_cifar_data/fast
 
+__/src/caffe/layers/route_layer.o: __/src/caffe/layers/route_layer.cpp.o
+
+.PHONY : __/src/caffe/layers/route_layer.o
+
+# target to build an object file
+__/src/caffe/layers/route_layer.cpp.o:
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.o
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/__/src/caffe/layers/route_layer.cpp.o
+.PHONY : __/src/caffe/layers/route_layer.cpp.o
+
+__/src/caffe/layers/route_layer.i: __/src/caffe/layers/route_layer.cpp.i
+
+.PHONY : __/src/caffe/layers/route_layer.i
+
+# target to preprocess a source file
+__/src/caffe/layers/route_layer.cpp.i:
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.i
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.i
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.i
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/__/src/caffe/layers/route_layer.cpp.i
+.PHONY : __/src/caffe/layers/route_layer.cpp.i
+
+__/src/caffe/layers/route_layer.s: __/src/caffe/layers/route_layer.cpp.s
+
+.PHONY : __/src/caffe/layers/route_layer.s
+
+# target to generate assembly for a file
+__/src/caffe/layers/route_layer.cpp.s:
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/__/src/caffe/layers/route_layer.cpp.s
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.s
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.s
+	cd /home/zxd/caffe/cmake-build-debug && $(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/__/src/caffe/layers/route_layer.cpp.s
+.PHONY : __/src/caffe/layers/route_layer.cpp.s
+
 cifar10/convert_cifar_data.o: cifar10/convert_cifar_data.cpp.o
 
 .PHONY : cifar10/convert_cifar_data.o
@@ -338,6 +374,9 @@ help:
 	@echo "... convert_mnist_siamese_data"
 	@echo "... classification"
 	@echo "... convert_cifar_data"
+	@echo "... __/src/caffe/layers/route_layer.o"
+	@echo "... __/src/caffe/layers/route_layer.i"
+	@echo "... __/src/caffe/layers/route_layer.s"
 	@echo "... cifar10/convert_cifar_data.o"
 	@echo "... cifar10/convert_cifar_data.i"
 	@echo "... cifar10/convert_cifar_data.s"

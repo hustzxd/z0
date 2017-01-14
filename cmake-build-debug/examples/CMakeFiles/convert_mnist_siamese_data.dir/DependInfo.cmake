@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zxd/caffe/src/caffe/layers/route_layer.cpp" "/home/zxd/caffe/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o"
   "/home/zxd/caffe/examples/siamese/convert_mnist_siamese_data.cpp" "/home/zxd/caffe/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

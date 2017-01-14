@@ -50,8 +50,8 @@ void CuDNNConvolutionLayer<Dtype>::LayerSetUp(
 
   for (int g = 0; g < this->group_ * CUDNN_STREAMS_PER_GROUP; g++) {
     CUDA_CHECK(cudaStreamCreate(&stream_[g]));
-    CUDNN_CHECK(cudnnCreate(&handle_[g]));
-    CUDNN_CHECK(cudnnSetStream(handle_[g], stream_[g]));
+//    CUDNN_CHECK(cudnnCreate(&handle_[g]));
+//    CUDNN_CHECK(cudnnSetStream(handle_[g], stream_[g]));
     workspace[g] = NULL;
   }
 
