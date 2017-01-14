@@ -52,7 +52,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o"
   "CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o"
   "CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o"
-  "CMakeFiles/test.testbin.dir/test_route_layer.cpp.o"
   "CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o"
   "CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o"
   "CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o"

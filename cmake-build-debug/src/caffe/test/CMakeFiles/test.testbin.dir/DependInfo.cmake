@@ -56,7 +56,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zxd/caffe/src/caffe/test/test_reduction_layer.cpp" "/home/zxd/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o"
   "/home/zxd/caffe/src/caffe/test/test_reshape_layer.cpp" "/home/zxd/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o"
   "/home/zxd/caffe/src/caffe/test/test_rnn_layer.cpp" "/home/zxd/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o"
-  "/home/zxd/caffe/src/caffe/test/test_route_layer.cpp" "/home/zxd/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/test_route_layer.cpp.o"
   "/home/zxd/caffe/src/caffe/test/test_scale_layer.cpp" "/home/zxd/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o"
   "/home/zxd/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp" "/home/zxd/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o"
   "/home/zxd/caffe/src/caffe/test/test_slice_layer.cpp" "/home/zxd/caffe/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o"
