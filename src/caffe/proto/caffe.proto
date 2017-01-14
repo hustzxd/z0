@@ -406,7 +406,6 @@ message LayerParameter {
   optional RouteParameter route_param = 147;
   optional ReorgParameter reorg_param = 148;
 }
-
 message ReorgParameter {
 // If reverse = false, then w/=stride h/=stride c*=c
 // else w*=w h*=h c/=c

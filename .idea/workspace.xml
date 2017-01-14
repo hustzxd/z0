@@ -37,6 +37,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" afterPath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,12 +56,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="caffe.proto" pinned="false" current-in-tab="true">
+      <file leaf-file-name="caffe.proto" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="417" column="1" lean-forward="true" selection-start-line="417" selection-start-column="1" selection-end-line="417" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="363" column="24" lean-forward="false" selection-start-line="363" selection-start-column="11" selection-end-line="363" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bias_layer.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/caffe/layers/bias_layer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <folding>
+                <element signature="e#156#172#0" expanded="true" />
+                <element signature="e#3061#3077#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,10 +186,10 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/caffe_config.h" />
         <option value="$PROJECT_DIR$/src/caffe/layers/cudnn_conv_layer.cpp" />
         <option value="$PROJECT_DIR$/include/caffe/util/cudnn.hpp" />
-        <option value="$PROJECT_DIR$/src/caffe/proto/caffe.proto" />
         <option value="$PROJECT_DIR$/include/caffe/layers/route_layer.h" />
         <option value="$PROJECT_DIR$/include/caffe/layers/route_layer.hpp" />
         <option value="$PROJECT_DIR$/src/caffe/layers/route_layer.cpp" />
+        <option value="$PROJECT_DIR$/src/caffe/proto/caffe.proto" />
       </list>
     </option>
   </component>
@@ -269,6 +283,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="proto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caffe" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,7 +704,7 @@
       <workItem from="1484209964266" duration="10930000" />
       <workItem from="1484227743751" duration="1635000" />
       <workItem from="1484291952999" duration="9305000" />
-      <workItem from="1484359941361" duration="1283000" />
+      <workItem from="1484359941361" duration="1866000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -726,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484369534753</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="不用添加Route和Reorg层？？">
+      <created>1484369627096</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484369627096</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28493000" />
+    <option name="totallyTimeSpent" value="29076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,7 +786,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27013177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -794,14 +837,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/caffe/layer.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6741">
-          <caret line="321" column="11" lean-forward="false" selection-start-line="321" selection-start-column="11" selection-end-line="321" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1136,9 +1171,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="417" column="1" lean-forward="true" selection-start-line="417" selection-start-column="1" selection-end-line="417" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="363" column="24" lean-forward="false" selection-start-line="363" selection-start-column="11" selection-end-line="363" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/caffe/layers/bias_layer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#156#172#0" expanded="true" />
+            <element signature="e#3061#3077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
