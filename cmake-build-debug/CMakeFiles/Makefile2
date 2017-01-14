@@ -71,7 +71,7 @@ CMakeFiles/pytest.dir/all: python/CMakeFiles/pycaffe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pytest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pytest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pytest.dir/rule
@@ -130,7 +130,7 @@ clean: CMakeFiles/lint.dir/clean
 CMakeFiles/symlink_to_build.dir/all:
 	$(MAKE) -f CMakeFiles/symlink_to_build.dir/build.make CMakeFiles/symlink_to_build.dir/depend
 	$(MAKE) -f CMakeFiles/symlink_to_build.dir/build.make CMakeFiles/symlink_to_build.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=71 "Built target symlink_to_build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=70 "Built target symlink_to_build"
 .PHONY : CMakeFiles/symlink_to_build.dir/all
 
 # Build rule for subdir invocation for target.
@@ -180,7 +180,7 @@ src/gtest/preinstall:
 src/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f src/gtest/CMakeFiles/gtest.dir/build.make src/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f src/gtest/CMakeFiles/gtest.dir/build.make src/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=68 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=67 "Built target gtest"
 .PHONY : src/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -234,7 +234,7 @@ src/caffe/preinstall: src/caffe/test/preinstall
 src/caffe/CMakeFiles/caffe.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/depend
 	$(MAKE) -f src/caffe/CMakeFiles/caffe.dir/build.make src/caffe/CMakeFiles/caffe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58 "Built target caffe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target caffe"
 .PHONY : src/caffe/CMakeFiles/caffe.dir/all
 
 # Include target in all.
@@ -244,7 +244,7 @@ all: src/caffe/CMakeFiles/caffe.dir/all
 
 # Build rule for subdir invocation for target.
 src/caffe/CMakeFiles/caffe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 src/caffe/CMakeFiles/caffe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : src/caffe/CMakeFiles/caffe.dir/rule
@@ -271,7 +271,7 @@ clean: src/caffe/CMakeFiles/caffe.dir/clean
 src/caffe/CMakeFiles/proto.dir/all:
 	$(MAKE) -f src/caffe/CMakeFiles/proto.dir/build.make src/caffe/CMakeFiles/proto.dir/depend
 	$(MAKE) -f src/caffe/CMakeFiles/proto.dir/build.make src/caffe/CMakeFiles/proto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=69 "Built target proto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target proto"
 .PHONY : src/caffe/CMakeFiles/proto.dir/all
 
 # Include target in all.
@@ -281,7 +281,7 @@ all: src/caffe/CMakeFiles/proto.dir/all
 
 # Build rule for subdir invocation for target.
 src/caffe/CMakeFiles/proto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/caffe/CMakeFiles/proto.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : src/caffe/CMakeFiles/proto.dir/rule
@@ -332,7 +332,7 @@ src/caffe/test/CMakeFiles/runtest.dir/all: src/caffe/test/CMakeFiles/test.testbi
 
 # Build rule for subdir invocation for target.
 src/caffe/test/CMakeFiles/runtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 85
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 89
 	$(MAKE) -f CMakeFiles/Makefile2 src/caffe/test/CMakeFiles/runtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : src/caffe/test/CMakeFiles/runtest.dir/rule
@@ -361,12 +361,12 @@ src/caffe/test/CMakeFiles/test.testbin.dir/all: src/caffe/CMakeFiles/caffe.dir/a
 src/caffe/test/CMakeFiles/test.testbin.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f src/caffe/test/CMakeFiles/test.testbin.dir/build.make src/caffe/test/CMakeFiles/test.testbin.dir/depend
 	$(MAKE) -f src/caffe/test/CMakeFiles/test.testbin.dir/build.make src/caffe/test/CMakeFiles/test.testbin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Built target test.testbin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Built target test.testbin"
 .PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/all
 
 # Build rule for subdir invocation for target.
 src/caffe/test/CMakeFiles/test.testbin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 85
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 89
 	$(MAKE) -f CMakeFiles/Makefile2 src/caffe/test/CMakeFiles/test.testbin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : src/caffe/test/CMakeFiles/test.testbin.dir/rule
@@ -444,7 +444,7 @@ all: tools/CMakeFiles/upgrade_solver_proto_text.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/upgrade_solver_proto_text.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/upgrade_solver_proto_text.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/upgrade_solver_proto_text.dir/rule
@@ -472,7 +472,7 @@ tools/CMakeFiles/caffe.bin.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 tools/CMakeFiles/caffe.bin.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f tools/CMakeFiles/caffe.bin.dir/build.make tools/CMakeFiles/caffe.bin.dir/depend
 	$(MAKE) -f tools/CMakeFiles/caffe.bin.dir/build.make tools/CMakeFiles/caffe.bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=59 "Built target caffe.bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=61 "Built target caffe.bin"
 .PHONY : tools/CMakeFiles/caffe.bin.dir/all
 
 # Include target in all.
@@ -482,7 +482,7 @@ all: tools/CMakeFiles/caffe.bin.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/caffe.bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/caffe.bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/caffe.bin.dir/rule
@@ -520,7 +520,7 @@ all: tools/CMakeFiles/device_query.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/device_query.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/device_query.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/device_query.dir/rule
@@ -558,7 +558,7 @@ all: tools/CMakeFiles/test_net.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/test_net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/test_net.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/test_net.dir/rule
@@ -596,7 +596,7 @@ all: tools/CMakeFiles/train_net.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/train_net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/train_net.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/train_net.dir/rule
@@ -624,7 +624,7 @@ tools/CMakeFiles/compute_image_mean.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 tools/CMakeFiles/compute_image_mean.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f tools/CMakeFiles/compute_image_mean.dir/build.make tools/CMakeFiles/compute_image_mean.dir/depend
 	$(MAKE) -f tools/CMakeFiles/compute_image_mean.dir/build.make tools/CMakeFiles/compute_image_mean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=61 "Built target compute_image_mean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=62 "Built target compute_image_mean"
 .PHONY : tools/CMakeFiles/compute_image_mean.dir/all
 
 # Include target in all.
@@ -634,7 +634,7 @@ all: tools/CMakeFiles/compute_image_mean.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/compute_image_mean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/compute_image_mean.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/compute_image_mean.dir/rule
@@ -672,7 +672,7 @@ all: tools/CMakeFiles/upgrade_net_proto_binary.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/upgrade_net_proto_binary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/upgrade_net_proto_binary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/upgrade_net_proto_binary.dir/rule
@@ -710,7 +710,7 @@ all: tools/CMakeFiles/convert_imageset.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/convert_imageset.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/convert_imageset.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/convert_imageset.dir/rule
@@ -748,7 +748,7 @@ all: tools/CMakeFiles/upgrade_net_proto_text.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/upgrade_net_proto_text.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/upgrade_net_proto_text.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/upgrade_net_proto_text.dir/rule
@@ -776,7 +776,7 @@ tools/CMakeFiles/extract_features.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 tools/CMakeFiles/extract_features.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f tools/CMakeFiles/extract_features.dir/build.make tools/CMakeFiles/extract_features.dir/depend
 	$(MAKE) -f tools/CMakeFiles/extract_features.dir/build.make tools/CMakeFiles/extract_features.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=66 "Built target extract_features"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=65 "Built target extract_features"
 .PHONY : tools/CMakeFiles/extract_features.dir/all
 
 # Include target in all.
@@ -786,7 +786,7 @@ all: tools/CMakeFiles/extract_features.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/extract_features.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/extract_features.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/extract_features.dir/rule
@@ -814,7 +814,7 @@ tools/CMakeFiles/finetune_net.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 tools/CMakeFiles/finetune_net.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f tools/CMakeFiles/finetune_net.dir/build.make tools/CMakeFiles/finetune_net.dir/depend
 	$(MAKE) -f tools/CMakeFiles/finetune_net.dir/build.make tools/CMakeFiles/finetune_net.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=67 "Built target finetune_net"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=66 "Built target finetune_net"
 .PHONY : tools/CMakeFiles/finetune_net.dir/all
 
 # Include target in all.
@@ -824,7 +824,7 @@ all: tools/CMakeFiles/finetune_net.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/finetune_net.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/finetune_net.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/finetune_net.dir/rule
@@ -862,7 +862,7 @@ all: tools/CMakeFiles/net_speed_benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 tools/CMakeFiles/net_speed_benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 59
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/net_speed_benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : tools/CMakeFiles/net_speed_benchmark.dir/rule
@@ -914,7 +914,7 @@ examples/CMakeFiles/convert_mnist_data.dir/all: src/caffe/CMakeFiles/caffe.dir/a
 examples/CMakeFiles/convert_mnist_data.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/depend
 	$(MAKE) -f examples/CMakeFiles/convert_mnist_data.dir/build.make examples/CMakeFiles/convert_mnist_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=64 "Built target convert_mnist_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num= "Built target convert_mnist_data"
 .PHONY : examples/CMakeFiles/convert_mnist_data.dir/all
 
 # Include target in all.
@@ -924,7 +924,7 @@ all: examples/CMakeFiles/convert_mnist_data.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/convert_mnist_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_mnist_data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : examples/CMakeFiles/convert_mnist_data.dir/rule
@@ -952,7 +952,7 @@ examples/CMakeFiles/convert_mnist_siamese_data.dir/all: src/caffe/CMakeFiles/caf
 examples/CMakeFiles/convert_mnist_siamese_data.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/depend
 	$(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=65 "Built target convert_mnist_siamese_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=64 "Built target convert_mnist_siamese_data"
 .PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/all
 
 # Include target in all.
@@ -962,7 +962,7 @@ all: examples/CMakeFiles/convert_mnist_siamese_data.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/convert_mnist_siamese_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 63
 	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_mnist_siamese_data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/rule
@@ -990,7 +990,7 @@ examples/CMakeFiles/classification.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 examples/CMakeFiles/classification.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/depend
 	$(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=60 "Built target classification"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num= "Built target classification"
 .PHONY : examples/CMakeFiles/classification.dir/all
 
 # Include target in all.
@@ -1000,7 +1000,7 @@ all: examples/CMakeFiles/classification.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/classification.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/classification.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : examples/CMakeFiles/classification.dir/rule
@@ -1028,7 +1028,7 @@ examples/CMakeFiles/convert_cifar_data.dir/all: src/caffe/CMakeFiles/caffe.dir/a
 examples/CMakeFiles/convert_cifar_data.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/depend
 	$(MAKE) -f examples/CMakeFiles/convert_cifar_data.dir/build.make examples/CMakeFiles/convert_cifar_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=62 "Built target convert_cifar_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num= "Built target convert_cifar_data"
 .PHONY : examples/CMakeFiles/convert_cifar_data.dir/all
 
 # Include target in all.
@@ -1038,7 +1038,7 @@ all: examples/CMakeFiles/convert_cifar_data.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/convert_cifar_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/convert_cifar_data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : examples/CMakeFiles/convert_cifar_data.dir/rule
@@ -1084,7 +1084,7 @@ python/CMakeFiles/pycaffe.dir/all: src/caffe/CMakeFiles/caffe.dir/all
 python/CMakeFiles/pycaffe.dir/all: src/caffe/CMakeFiles/proto.dir/all
 	$(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/depend
 	$(MAKE) -f python/CMakeFiles/pycaffe.dir/build.make python/CMakeFiles/pycaffe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=70 "Built target pycaffe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num= "Built target pycaffe"
 .PHONY : python/CMakeFiles/pycaffe.dir/all
 
 # Include target in all.
@@ -1094,7 +1094,7 @@ all: python/CMakeFiles/pycaffe.dir/all
 
 # Build rule for subdir invocation for target.
 python/CMakeFiles/pycaffe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 62
 	$(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pycaffe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxd/caffe/cmake-build-debug/CMakeFiles 0
 .PHONY : python/CMakeFiles/pycaffe.dir/rule

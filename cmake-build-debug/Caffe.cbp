@@ -1801,18 +1801,6 @@
 		<Unit filename="/home/zxd/caffe/cmake-build-debug/caffe_config.h">
 			<Option target="caffe"/>
 		</Unit>
-		<Unit filename="/home/zxd/caffe/examples/cifar10/convert_cifar_data.cpp">
-			<Option target="convert_cifar_data"/>
-		</Unit>
-		<Unit filename="/home/zxd/caffe/examples/cpp_classification/classification.cpp">
-			<Option target="classification"/>
-		</Unit>
-		<Unit filename="/home/zxd/caffe/examples/mnist/convert_mnist_data.cpp">
-			<Option target="convert_mnist_data"/>
-		</Unit>
-		<Unit filename="/home/zxd/caffe/examples/siamese/convert_mnist_siamese_data.cpp">
-			<Option target="convert_mnist_siamese_data"/>
-		</Unit>
 		<Unit filename="/home/zxd/caffe/include/caffe/blob.hpp">
 			<Option target="caffe"/>
 		</Unit>
@@ -2013,13 +2001,6 @@
 		</Unit>
 		<Unit filename="/home/zxd/caffe/include/caffe/layers/rnn_layer.hpp">
 			<Option target="caffe"/>
-		</Unit>
-		<Unit filename="/home/zxd/caffe/include/caffe/layers/route_layer.hpp">
-			<Option target="caffe"/>
-			<Option target="convert_mnist_data"/>
-			<Option target="convert_mnist_siamese_data"/>
-			<Option target="classification"/>
-			<Option target="convert_cifar_data"/>
 		</Unit>
 		<Unit filename="/home/zxd/caffe/include/caffe/layers/scale_layer.hpp">
 			<Option target="caffe"/>
@@ -2452,13 +2433,6 @@
 		</Unit>
 		<Unit filename="/home/zxd/caffe/src/caffe/layers/rnn_layer.cpp">
 			<Option target="caffe"/>
-		</Unit>
-		<Unit filename="/home/zxd/caffe/src/caffe/layers/route_layer.cpp">
-			<Option target="caffe"/>
-			<Option target="convert_mnist_data"/>
-			<Option target="convert_mnist_siamese_data"/>
-			<Option target="classification"/>
-			<Option target="convert_cifar_data"/>
 		</Unit>
 		<Unit filename="/home/zxd/caffe/src/caffe/layers/scale_layer.cpp">
 			<Option target="caffe"/>

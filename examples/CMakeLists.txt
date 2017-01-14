@@ -8,7 +8,7 @@ foreach(source_file ${examples_srcs})
   get_filename_component(path ${source_file} PATH)
   get_filename_component(folder ${path} NAME_WE)
     
-  add_executable(${name} ${source_file} ../src/caffe/layers/route_layer.cpp ../include/caffe/layers/route_layer.hpp)
+  add_executable(${name} ${source_file} ../include/caffe/layers/route_layer.hpp)
   target_link_libraries(${name} ${Caffe_LINK})
   caffe_default_properties(${name})
 

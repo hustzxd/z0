@@ -29,7 +29,7 @@
 -- ******************* Caffe Configuration Summary *******************
 -- General:
 --   Version           :   1.0.0-rc3
---   Git               :   e3e6fcc-dirty
+--   Git               :   bf69dd5-dirty
 --   System            :   Linux
 --   C++ compiler      :   /usr/bin/c++
 --   Release CXX flags :   -O3 -DNDEBUG -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
@@ -76,5 +76,14 @@
 --   Install path      :   /home/zxd/caffe/cmake-build-debug/install
 -- 
 -- Configuring done
+CMake Error at examples/CMakeLists.txt:11 (add_executable):
+  Cannot find source file:
+
+    ../include/caffe/layers/route_layer.hpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
 -- Generating done
 -- Build files have been written to: /home/zxd/caffe/cmake-build-debug

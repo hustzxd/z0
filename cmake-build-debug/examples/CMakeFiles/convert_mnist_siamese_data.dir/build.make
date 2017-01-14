@@ -57,64 +57,12 @@ include examples/CMakeFiles/convert_mnist_siamese_data.dir/progress.make
 # Include the compile flags for this target's objects.
 include examples/CMakeFiles/convert_mnist_siamese_data.dir/flags.make
 
-examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o: examples/CMakeFiles/convert_mnist_siamese_data.dir/flags.make
-examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o: ../examples/siamese/convert_mnist_siamese_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o -c /home/zxd/caffe/examples/siamese/convert_mnist_siamese_data.cpp
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.i"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxd/caffe/examples/siamese/convert_mnist_siamese_data.cpp > CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.i
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.s"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxd/caffe/examples/siamese/convert_mnist_siamese_data.cpp -o CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.s
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.requires:
-
-.PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.requires
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.provides: examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.requires
-	$(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.provides.build
-.PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.provides
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.provides.build: examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o
-
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o: examples/CMakeFiles/convert_mnist_siamese_data.dir/flags.make
-examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o: ../src/caffe/layers/route_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/route_layer.cpp
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.i"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxd/caffe/src/caffe/layers/route_layer.cpp > CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.i
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.s"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxd/caffe/src/caffe/layers/route_layer.cpp -o CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.s
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires:
-
-.PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides: examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires
-	$(MAKE) -f examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides.build
-.PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides
-
-examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.provides.build: examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o
-
-
 # Object files for target convert_mnist_siamese_data
-convert_mnist_siamese_data_OBJECTS = \
-"CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o" \
-"CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o"
+convert_mnist_siamese_data_OBJECTS =
 
 # External object files for target convert_mnist_siamese_data
 convert_mnist_siamese_data_EXTERNAL_OBJECTS =
 
-examples/siamese/convert_mnist_siamese_data-d: examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o
-examples/siamese/convert_mnist_siamese_data-d: examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o
 examples/siamese/convert_mnist_siamese_data-d: examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make
 examples/siamese/convert_mnist_siamese_data-d: lib/libcaffe-d.so.1.0.0-rc3
 examples/siamese/convert_mnist_siamese_data-d: lib/libproto-d.a
@@ -156,7 +104,7 @@ examples/siamese/convert_mnist_siamese_data-d: /usr/lib/libatlas.so
 examples/siamese/convert_mnist_siamese_data-d: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 examples/siamese/convert_mnist_siamese_data-d: /usr/lib/x86_64-linux-gnu/libboost_python.so
 examples/siamese/convert_mnist_siamese_data-d: examples/CMakeFiles/convert_mnist_siamese_data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable siamese/convert_mnist_siamese_data-d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX executable siamese/convert_mnist_siamese_data-d"
 	cd /home/zxd/caffe/cmake-build-debug/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/convert_mnist_siamese_data.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/zxd/caffe/cmake-build-debug/examples && ln -sf /home/zxd/caffe/cmake-build-debug/examples/siamese/convert_mnist_siamese_data-d /home/zxd/caffe/cmake-build-debug/examples/siamese/convert_mnist_siamese_data-d.bin
 
@@ -165,8 +113,7 @@ examples/CMakeFiles/convert_mnist_siamese_data.dir/build: examples/siamese/conve
 
 .PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/build
 
-examples/CMakeFiles/convert_mnist_siamese_data.dir/requires: examples/CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o.requires
-examples/CMakeFiles/convert_mnist_siamese_data.dir/requires: examples/CMakeFiles/convert_mnist_siamese_data.dir/__/src/caffe/layers/route_layer.cpp.o.requires
+examples/CMakeFiles/convert_mnist_siamese_data.dir/requires:
 
 .PHONY : examples/CMakeFiles/convert_mnist_siamese_data.dir/requires
 

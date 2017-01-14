@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/convert_cifar_data.dir/cifar10/convert_cifar_data.cpp.o"
-  "CMakeFiles/convert_cifar_data.dir/__/src/caffe/layers/route_layer.cpp.o"
   "cifar10/convert_cifar_data-d.pdb"
   "cifar10/convert_cifar_data-d"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang )
   include(CMakeFiles/convert_cifar_data.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

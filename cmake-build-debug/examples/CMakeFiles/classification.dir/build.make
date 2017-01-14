@@ -57,64 +57,12 @@ include examples/CMakeFiles/classification.dir/progress.make
 # Include the compile flags for this target's objects.
 include examples/CMakeFiles/classification.dir/flags.make
 
-examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o: examples/CMakeFiles/classification.dir/flags.make
-examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o: ../examples/cpp_classification/classification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/classification.dir/cpp_classification/classification.cpp.o -c /home/zxd/caffe/examples/cpp_classification/classification.cpp
-
-examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/classification.dir/cpp_classification/classification.cpp.i"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxd/caffe/examples/cpp_classification/classification.cpp > CMakeFiles/classification.dir/cpp_classification/classification.cpp.i
-
-examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/classification.dir/cpp_classification/classification.cpp.s"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxd/caffe/examples/cpp_classification/classification.cpp -o CMakeFiles/classification.dir/cpp_classification/classification.cpp.s
-
-examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.requires:
-
-.PHONY : examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.requires
-
-examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.provides: examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.requires
-	$(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.provides.build
-.PHONY : examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.provides
-
-examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.provides.build: examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o
-
-
-examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o: examples/CMakeFiles/classification.dir/flags.make
-examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o: ../src/caffe/layers/route_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o -c /home/zxd/caffe/src/caffe/layers/route_layer.cpp
-
-examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.i"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxd/caffe/src/caffe/layers/route_layer.cpp > CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.i
-
-examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.s"
-	cd /home/zxd/caffe/cmake-build-debug/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxd/caffe/src/caffe/layers/route_layer.cpp -o CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.s
-
-examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.requires:
-
-.PHONY : examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.requires
-
-examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.provides: examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.requires
-	$(MAKE) -f examples/CMakeFiles/classification.dir/build.make examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.provides.build
-.PHONY : examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.provides
-
-examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.provides.build: examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o
-
-
 # Object files for target classification
-classification_OBJECTS = \
-"CMakeFiles/classification.dir/cpp_classification/classification.cpp.o" \
-"CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o"
+classification_OBJECTS =
 
 # External object files for target classification
 classification_EXTERNAL_OBJECTS =
 
-examples/cpp_classification/classification-d: examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o
-examples/cpp_classification/classification-d: examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o
 examples/cpp_classification/classification-d: examples/CMakeFiles/classification.dir/build.make
 examples/cpp_classification/classification-d: lib/libcaffe-d.so.1.0.0-rc3
 examples/cpp_classification/classification-d: lib/libproto-d.a
@@ -156,7 +104,7 @@ examples/cpp_classification/classification-d: /usr/lib/libatlas.so
 examples/cpp_classification/classification-d: /usr/lib/x86_64-linux-gnu/libpython2.7.so
 examples/cpp_classification/classification-d: /usr/lib/x86_64-linux-gnu/libboost_python.so
 examples/cpp_classification/classification-d: examples/CMakeFiles/classification.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp_classification/classification-d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxd/caffe/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX executable cpp_classification/classification-d"
 	cd /home/zxd/caffe/cmake-build-debug/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/classification.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/zxd/caffe/cmake-build-debug/examples && ln -sf /home/zxd/caffe/cmake-build-debug/examples/cpp_classification/classification-d /home/zxd/caffe/cmake-build-debug/examples/cpp_classification/classification-d.bin
 
@@ -165,8 +113,7 @@ examples/CMakeFiles/classification.dir/build: examples/cpp_classification/classi
 
 .PHONY : examples/CMakeFiles/classification.dir/build
 
-examples/CMakeFiles/classification.dir/requires: examples/CMakeFiles/classification.dir/cpp_classification/classification.cpp.o.requires
-examples/CMakeFiles/classification.dir/requires: examples/CMakeFiles/classification.dir/__/src/caffe/layers/route_layer.cpp.o.requires
+examples/CMakeFiles/classification.dir/requires:
 
 .PHONY : examples/CMakeFiles/classification.dir/requires
 
