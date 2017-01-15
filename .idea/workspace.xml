@@ -35,9 +35,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="add a reorg-branch">
+    <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp" afterPath="$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -716,7 +715,7 @@
       <workItem from="1484376104353" duration="9180000" />
       <workItem from="1484393285643" duration="40000" />
       <workItem from="1484443216724" duration="2125000" />
-      <workItem from="1484445557087" duration="1564000" />
+      <workItem from="1484445557087" duration="1611000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -795,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484377161387</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add a reorg-branch">
+      <created>1484447567547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1484447567547</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43560000" />
+    <option name="totallyTimeSpent" value="43607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,7 +854,8 @@
     <MESSAGE value="添加proto，定义了Route和Reorg层的参数" />
     <MESSAGE value="不用添加Route和Reorg层？？" />
     <MESSAGE value="delete route?" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete route?" />
+    <MESSAGE value="add a reorg-branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a reorg-branch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
