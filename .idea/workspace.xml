@@ -9,10 +9,10 @@
       <config projectName="Caffe" targetName="pycaffe" />
       <config projectName="Caffe" targetName="test.testbin" />
       <config projectName="Caffe" targetName="finetune_net" />
-      <config projectName="Caffe" targetName="caffe" />
       <config projectName="Caffe" targetName="pytest" />
       <config projectName="Caffe" targetName="upgrade_solver_proto_text" />
-      <config projectName="Caffe" targetName="device_query" />
+      <config projectName="Caffe" targetName="convert_cifar_data" />
+      <config projectName="Caffe" targetName="classification" />
       <config projectName="Caffe" targetName="runtest" />
       <config projectName="Caffe" targetName="upgrade_net_proto_text" />
       <config projectName="Caffe" targetName="symlink_to_build" />
@@ -20,13 +20,13 @@
       <config projectName="Caffe" targetName="convert_mnist_data" />
       <config projectName="Caffe" targetName="caffe.bin" />
       <config projectName="Caffe" targetName="convert_imageset" />
-      <config projectName="Caffe" targetName="convert_cifar_data" />
+      <config projectName="Caffe" targetName="device_query" />
       <config projectName="Caffe" targetName="test_net" />
       <config projectName="Caffe" targetName="upgrade_net_proto_binary" />
       <config projectName="Caffe" targetName="extract_features" />
       <config projectName="Caffe" targetName="gtest" />
       <config projectName="Caffe" targetName="lint" />
-      <config projectName="Caffe" targetName="classification" />
+      <config projectName="Caffe" targetName="caffe" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -35,8 +35,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
+    <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="reorg-branch init">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp" afterPath="$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +59,7 @@
       <file leaf-file-name="caffe.proto" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="10395">
               <caret line="495" column="22" lean-forward="false" selection-start-line="495" selection-start-column="22" selection-end-line="495" selection-end-column="22" />
               <folding />
             </state>
@@ -85,8 +86,8 @@
       <file leaf-file-name="concat_layer.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#342#358#0" expanded="true" />
               </folding>
@@ -715,7 +716,8 @@
       <workItem from="1484376104353" duration="9180000" />
       <workItem from="1484393285643" duration="40000" />
       <workItem from="1484443216724" duration="2125000" />
-      <workItem from="1484445557087" duration="1611000" />
+      <workItem from="1484445557087" duration="1704000" />
+      <workItem from="1484447786216" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -801,11 +803,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484447567547</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="reorg-branch init">
+      <created>1484447608444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484447608445</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43607000" />
+    <option name="totallyTimeSpent" value="43713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,11 +827,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27013177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.367713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.367713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -855,7 +864,8 @@
     <MESSAGE value="不用添加Route和Reorg层？？" />
     <MESSAGE value="delete route?" />
     <MESSAGE value="add a reorg-branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a reorg-branch" />
+    <MESSAGE value="reorg-branch init" />
+    <option name="LAST_COMMIT_MESSAGE" value="reorg-branch init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1184,7 +1194,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="10395">
           <caret line="495" column="22" lean-forward="false" selection-start-line="495" selection-start-column="22" selection-end-line="495" selection-end-column="22" />
           <folding />
         </state>
@@ -1192,8 +1202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="21">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#342#358#0" expanded="true" />
           </folding>
