@@ -2,31 +2,31 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Caffe" targetName="upgrade_net_proto_text" />
-      <config projectName="Caffe" targetName="extract_features" />
-      <config projectName="Caffe" targetName="device_query" />
-      <config projectName="Caffe" targetName="pytest" />
-      <config projectName="Caffe" targetName="caffe.bin" />
-      <config projectName="Caffe" targetName="gtest" />
-      <config projectName="Caffe" targetName="test.testbin" />
-      <config projectName="Caffe" targetName="train_net" />
       <config projectName="Caffe" targetName="net_speed_benchmark" />
-      <config projectName="Caffe" targetName="proto" />
-      <config projectName="Caffe" targetName="runtest" />
-      <config projectName="Caffe" targetName="convert_imageset" />
       <config projectName="Caffe" targetName="compute_image_mean" />
-      <config projectName="Caffe" targetName="convert_mnist_data" />
-      <config projectName="Caffe" targetName="pycaffe" />
       <config projectName="Caffe" targetName="convert_mnist_siamese_data" />
-      <config projectName="Caffe" targetName="upgrade_net_proto_binary" />
+      <config projectName="Caffe" targetName="proto" />
+      <config projectName="Caffe" targetName="pycaffe" />
+      <config projectName="Caffe" targetName="test.testbin" />
+      <config projectName="Caffe" targetName="finetune_net" />
+      <config projectName="Caffe" targetName="caffe" />
+      <config projectName="Caffe" targetName="pytest" />
+      <config projectName="Caffe" targetName="upgrade_solver_proto_text" />
+      <config projectName="Caffe" targetName="device_query" />
+      <config projectName="Caffe" targetName="runtest" />
+      <config projectName="Caffe" targetName="upgrade_net_proto_text" />
+      <config projectName="Caffe" targetName="symlink_to_build" />
+      <config projectName="Caffe" targetName="train_net" />
+      <config projectName="Caffe" targetName="convert_mnist_data" />
+      <config projectName="Caffe" targetName="caffe.bin" />
+      <config projectName="Caffe" targetName="convert_imageset" />
       <config projectName="Caffe" targetName="convert_cifar_data" />
       <config projectName="Caffe" targetName="test_net" />
-      <config projectName="Caffe" targetName="upgrade_solver_proto_text" />
+      <config projectName="Caffe" targetName="upgrade_net_proto_binary" />
+      <config projectName="Caffe" targetName="extract_features" />
+      <config projectName="Caffe" targetName="gtest" />
       <config projectName="Caffe" targetName="lint" />
-      <config projectName="Caffe" targetName="finetune_net" />
       <config projectName="Caffe" targetName="classification" />
-      <config projectName="Caffe" targetName="symlink_to_build" />
-      <config projectName="Caffe" targetName="caffe" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -35,121 +35,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/include/caffe/layers/route_layer.hpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/caffe/layers/route_layer.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/mnist/mnist_test_lmdb/lock.mdb" afterPath="$PROJECT_DIR$/examples/mnist/mnist_test_lmdb/lock.mdb" />
+    <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="add a reorg-branch">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/symlink_to_build.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/symlink_to_build.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Caffe.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Caffe.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/classification.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_cifar_data.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_data.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/convert_mnist_siamese_data.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/pycaffe.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/python/CMakeFiles/pycaffe.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/caffe.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_absval_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_base_data_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_norm_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_batch_reindex_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bias_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_bnll_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_concat_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_contrastive_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_conv_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_crop_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_conv_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lcn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_lrn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_pooling_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_relu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_sigmoid_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_softmax_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_cudnn_tanh_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_deconv_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_dropout_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_eltwise_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_elu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_embed_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_euclidean_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_exp_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_filter_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_data_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_hdf5_output_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_im2col_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_inner_product_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_log_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lrn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_lstm_unit_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_mvn_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_pooling_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_power_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_prelu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_recurrent_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_reduction_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_relu_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_scale_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_cross_entropy_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_sigmoid_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_silence_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_slice_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_softmax_loss_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_split_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tanh_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_threshold_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/layers/cuda_compile_generated_tile_layer.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adadelta_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adagrad_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_adam_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_nesterov_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_rmsprop_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/solvers/cuda_compile_generated_sgd_solver.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_im2col.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o.depend" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/cuda_compile.dir/util/cuda_compile_generated_math_functions.cu.o.depend" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/proto.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/CMakeFiles/proto.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/caffe/test/CMakeFiles/test.testbin.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/src/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/src/gtest/CMakeFiles/gtest.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/caffe.bin.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/caffe.bin.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/compute_image_mean.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/compute_image_mean.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/convert_imageset.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/convert_imageset.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/extract_features.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/extract_features.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/finetune_net.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/finetune_net.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/tools/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" afterPath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp" afterPath="$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,26 +56,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="caffe.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="495" column="22" lean-forward="false" selection-start-line="495" selection-start-column="22" selection-end-line="495" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bias_layer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/caffe/layers/bias_layer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="315">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#156#172#0" expanded="true" />
                 <element signature="e#1568#1584#0" expanded="true" />
                 <element signature="e#3061#3077#0" expanded="true" />
+                <element signature="e#3727#3743#0" expanded="true" />
+                <element signature="e#4759#4779#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caffe.proto" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
+      <file leaf-file-name="concat_layer.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="398" column="48" lean-forward="true" selection-start-line="398" selection-start-column="48" selection-end-line="398" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="336">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <element signature="e#342#358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="concat_layer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/caffe/layers/concat_layer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#130#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bias_layer.cu" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/caffe/layers/bias_layer.cu">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#156#172#0" expanded="true" />
+                <element signature="e#466#482#0" expanded="true" />
+                <element signature="e#1044#1060#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bias_layer.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/caffe/layers/bias_layer.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+              <folding>
+                <element signature="e#61#78#0" expanded="true" />
+                <element signature="e#650#666#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,21 +138,9 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="189">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="absval_layer.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/caffe/layers/absval_layer.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#65#82#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -223,6 +154,9 @@
       <find>PoolingParameter</find>
       <find>offset</find>
       <find>last added</find>
+      <find>147</find>
+      <find>133</find>
+      <find>concat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/caffe/layers/route_layer.cpp" />
         <option value="$PROJECT_DIR$/src/caffe/proto/caffe.proto" />
         <option value="$PROJECT_DIR$/examples/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp" />
       </list>
     </option>
   </component>
@@ -336,11 +271,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caffe" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caffe" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -742,7 +713,10 @@
       <workItem from="1484291952999" duration="9305000" />
       <workItem from="1484359941361" duration="1866000" />
       <workItem from="1484373735246" duration="892000" />
-      <workItem from="1484376104353" duration="1022000" />
+      <workItem from="1484376104353" duration="9180000" />
+      <workItem from="1484393285643" duration="40000" />
+      <workItem from="1484443216724" duration="2125000" />
+      <workItem from="1484445557087" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -814,11 +788,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484372924836</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="delete route?">
+      <created>1484377161387</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1484377161387</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31673000" />
+    <option name="totallyTimeSpent" value="43560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,26 +812,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27013177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34080717" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.367713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.62929744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39461884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34080717" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62929744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39461884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -876,36 +857,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5229">
-          <caret line="249" column="1" lean-forward="true" selection-start-line="249" selection-start-column="1" selection-end-line="249" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/mnist/get_mnist.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/caffe/layers/pooling_layer.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/layers/route_layer.cpp" />
     <entry file="file://$PROJECT_DIR$/include/caffe/layers/route_layer.hpp" />
     <entry file="file://$PROJECT_DIR$/include/caffe/layers/absval_layer.hpp">
@@ -1164,37 +1115,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-231">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/caffe/layers/bias_layer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <element signature="e#65#82#0" expanded="true" />
+            <element signature="e#61#78#0" expanded="true" />
+            <element signature="e#650#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/caffe/layers/bias_layer.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#156#172#0" expanded="true" />
+            <element signature="e#466#482#0" expanded="true" />
+            <element signature="e#1044#1060#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/layers/bias_layer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="315">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#156#172#0" expanded="true" />
             <element signature="e#1568#1584#0" expanded="true" />
             <element signature="e#3061#3077#0" expanded="true" />
+            <element signature="e#3727#3743#0" expanded="true" />
+            <element signature="e#4759#4779#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/src/caffe/layers/concat_layer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#130#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="398" column="48" lean-forward="true" selection-start-line="398" selection-start-column="48" selection-end-line="398" selection-end-column="48" />
+        <state relative-caret-position="147">
+          <caret line="495" column="22" lean-forward="false" selection-start-line="495" selection-start-column="22" selection-end-line="495" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/caffe/layers/concat_layer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#342#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
