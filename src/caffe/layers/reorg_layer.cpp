@@ -30,14 +30,13 @@ namespace caffe {
                                         const vector<Blob<Dtype> *> &top) {
         const Dtype *bottom_data = bottom[0]->cpu_data();
         Dtype *top_data = top[0]->mutable_cpu_data();
-        const int top_count = top[0]->count();
         reorg_cpu(bottom_data, bottom[0]->width(), bottom[0]->height(),
-                  bottom[0].channels(), bottom[0]->num(), stride_, reverse_, top_data);
+                  bottom[0]->channels(), bottom[0]->num(), stride_, reverse_, top_data);
     }
 
     template<typename Dtype>
-    void reorg_cpu(Dtype *bottom_data, int b_w, int b_h, int b_c, int b_n,
-                   int stride, bool forward, Dtype *top_data) {
+    void reorg_cpu(const Dtype *bottom_data, const int b_w, const int b_h, const int b_c, const int b_n,
+                   const int stride, const bool forward, Dtype *top_data) {
         int t_c = b_c / (stride * stride);
         int t_w = b_w * stride;
         int t_h = b_h * stride;
@@ -51,7 +50,7 @@ namespace caffe {
                         int w2 = w * stride + offset % stride;
                         int h2 = h * stride + offset / stride;
                         int top_index = w2 + w * stride * (h2 + h * stride * (c2 + t_c * n));
-                        if (forward) top_data[top_inded] = bottom_data[bottom_index];
+                        if (forward) top_data[top_index] = bottom_data[bottom_index];
                         else
                             top_data[bottom_index] = bottom_data[top_index];
                     }

@@ -36,12 +36,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/zxd.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/mnist/mnist_test_lmdb/lock.mdb" afterPath="$PROJECT_DIR$/examples/mnist/mnist_test_lmdb/lock.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" afterPath="$PROJECT_DIR$/src/caffe/proto/caffe.proto" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/distribute/include/caffe/layers/reorg_layer.hpp" afterPath="$PROJECT_DIR$/distribute/include/caffe/layers/reorg_layer.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp" afterPath="$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp" afterPath="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,23 +71,11 @@
       <file leaf-file-name="reorg_layer.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="e#63#80#0" expanded="true" />
-                <element signature="e#423#439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/caffe/util/format.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#59#109#0" expanded="true" />
+                <element signature="e#422#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,13 +84,13 @@
       <file leaf-file-name="reorg_layer.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+            <state relative-caret-position="344">
+              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <element signature="e#72#88#0" expanded="true" />
                 <element signature="e#643#659#0" expanded="true" />
                 <element signature="e#1234#1250#0" expanded="true" />
-                <element signature="e#1742#1758#0" expanded="true" />
+                <element signature="e#1696#1712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -334,6 +320,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caffe" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="caffe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -740,7 +748,7 @@
       <workItem from="1484443216724" duration="2125000" />
       <workItem from="1484445557087" duration="1704000" />
       <workItem from="1484447786216" duration="9023000" />
-      <workItem from="1484459606193" duration="4321000" />
+      <workItem from="1484459606193" duration="6241000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -840,11 +848,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484447962631</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add reorg_layer without check">
+      <created>1484464288828</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1484464288828</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57044000" />
+    <option name="totallyTimeSpent" value="58964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,7 +910,8 @@
     <MESSAGE value="delete route?" />
     <MESSAGE value="add a reorg-branch" />
     <MESSAGE value="reorg-branch init" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorg-branch init" />
+    <MESSAGE value="add reorg_layer without check" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reorg_layer without check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -904,20 +920,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="66" lean-forward="true" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cmake/ConfigGen.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/layers/data_layer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
@@ -1093,6 +1095,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,6 +1103,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,6 +1111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,6 +1119,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#17#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,6 +1129,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#76#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,6 +1165,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#17#0" expanded="false" />
+            <element signature="e#156#172#0" expanded="false" />
+            <element signature="e#466#482#0" expanded="false" />
+            <element signature="e#1044#1060#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,6 +1189,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,6 +1197,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#87#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,27 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/caffe/util/format.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#59#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#63#80#0" expanded="true" />
-            <element signature="e#423#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/proto/caffe.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1294,15 +1295,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/caffe/util/format.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/caffe/layers/argmax_layer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/caffe/layers/pooling_layer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="e#63#80#0" expanded="true" />
+            <element signature="e#422#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="50" column="50" lean-forward="false" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+        <state relative-caret-position="344">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding>
             <element signature="e#72#88#0" expanded="true" />
             <element signature="e#643#659#0" expanded="true" />
             <element signature="e#1234#1250#0" expanded="true" />
-            <element signature="e#1742#1758#0" expanded="true" />
+            <element signature="e#1696#1712#0" expanded="true" />
           </folding>
         </state>
       </provider>
