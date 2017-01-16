@@ -23,7 +23,8 @@ namespace caffe {
             int offset = index_channels / channels_out;
             int w2 = index_width * stride + offset % stride;
             int h2 = index_height * stride + offset / stride;
-            int out_index = ((((batch_num * channels_out + index_batch_num) + c2) * height_out + h2) * width_out) + w2;
+//            int out_index = ((((batch_num * channels_out + index_batch_num) + c2) * height_out + h2) * width_out) + w2;
+            int out_index = ((index_batch_num * channels_out + c2) * height_out + h2) * width_out + w2;
             if (reverse) out_data[out_index] = in_data[index];
             else out_data[index] = in_data[out_index];
         }

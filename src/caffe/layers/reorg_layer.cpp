@@ -7,7 +7,7 @@ namespace caffe {
                                        const vector<Blob<Dtype> *> &top) {
         CHECK_NE(top[0], bottom[0]) << this->type() << " Layer does not "
                     "allow in-place computation.";
-        ReorganizeParamter reorg_param = this->layer_param_.reorganize_param();
+        ReorgParameter reorg_param = this->layer_param_.reorg_param();
         CHECK_EQ(reorg_param.has_stride(), true) << this->type() << " Layer needs stride param.";
         reverse_ = reorg_param.reverse();
         stride_ = reorg_param.stride();
@@ -39,8 +39,8 @@ namespace caffe {
                                         const vector<Blob<Dtype> *> &top) {
         const Dtype *bottom_data = bottom[0]->cpu_data();
         Dtype *top_data = top[0]->mutable_cpu_data();
-        reorg_cpu(bottom_data, width_, height_,
-                  channels_, batch_num_, stride_, reverse_, top_data);
+         reorg_cpu(bottom_data, width_, height_,
+                   channels_, batch_num_, stride_, reverse_, top_data);
     }
     INSTANTIATE_CLASS(ReorgLayer);
     REGISTER_LAYER_CLASS(Reorg);
