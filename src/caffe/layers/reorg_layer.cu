@@ -53,7 +53,7 @@ namespace caffe {
         const int nthreads = bottom[0]->count();
         Reorg<Dtype>
             <<< CAFFE_GET_BLOCKS(nthreads), CAFFE_CUDA_NUM_THREADS >>>(
-                nthreads, top_diff, reverse_, stride_, width_, height_,
+                nthreads, top_diff, !reverse_, stride_, width_, height_,
                 channels_, batch_num_, bottom_diff);
     }
     INSTANTIATE_LAYER_GPU_FUNCS(ReorgLayer);

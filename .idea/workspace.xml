@@ -37,8 +37,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a583a53c-8667-4ea2-aed5-2ec56e54e320" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp" afterPath="$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp" afterPath="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cu" afterPath="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cu" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -68,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reorg_layer.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reorg_layer.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="145">
               <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -119,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reorg_layer.cu" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reorg_layer.cu" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/caffe/layers/reorg_layer.cu">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="68">
+              <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#152#168#0" expanded="true" />
@@ -206,8 +204,8 @@
         <option value="$PROJECT_DIR$/src/caffe/util/math_functions.cpp" />
         <option value="$PROJECT_DIR$/src/caffe/test/test_reorg_layer.cpp" />
         <option value="$PROJECT_DIR$/include/caffe/layers/reorg_layer.hpp" />
-        <option value="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cu" />
         <option value="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp" />
+        <option value="$PROJECT_DIR$/src/caffe/layers/reorg_layer.cu" />
       </list>
     </option>
   </component>
@@ -732,7 +730,7 @@
       <workItem from="1484459606193" duration="12933000" />
       <workItem from="1484556821548" duration="1671000" />
       <workItem from="1484532769448" duration="11773000" />
-      <workItem from="1484567916392" duration="5774000" />
+      <workItem from="1484567916392" duration="5870000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1484205370839</created>
@@ -867,11 +865,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484570664948</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add reorg_layer::Backward without test">
+      <created>1484574772932</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1484574772932</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84874000" />
+    <option name="totallyTimeSpent" value="84970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -927,7 +932,8 @@
     <MESSAGE value="add reorg_layer.cu" />
     <MESSAGE value="add reorg_layer.cu 2" />
     <MESSAGE value="fix some problems and add test_reorg_layer.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some problems and add test_reorg_layer.cpp" />
+    <MESSAGE value="add reorg_layer::Backward without test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add reorg_layer::Backward without test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1309,22 +1315,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/caffe/layers/reorg_layer.cu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#152#168#0" expanded="true" />
-            <element signature="e#1526#1542#0" expanded="true" />
-            <element signature="e#2108#2124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/caffe/layers/reorg_layer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="145">
           <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -1332,6 +1325,19 @@
             <element signature="e#1206#1222#0" expanded="true" />
             <element signature="e#1500#1516#0" expanded="true" />
             <element signature="e#1920#1936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/caffe/layers/reorg_layer.cu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#152#168#0" expanded="true" />
+            <element signature="e#1526#1542#0" expanded="true" />
+            <element signature="e#2108#2124#0" expanded="true" />
           </folding>
         </state>
       </provider>
