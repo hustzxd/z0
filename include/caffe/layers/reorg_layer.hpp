@@ -34,9 +34,7 @@ namespace caffe {
         virtual inline int ExactNumTopBlobs() const { return 1; }
 
     protected:
-        virtual void reorg_cpu(const Dtype *bottom_data, const int b_w, const int b_h,
-                               const int b_c, const int b_n,
-                               const int stride, const bool forward, Dtype *top_data);
+
 
         virtual void Forward_cpu(const vector<Blob<Dtype> *> &bottom,
                                  const vector<Blob<Dtype> *> &top);
@@ -45,13 +43,18 @@ namespace caffe {
                                   const vector<bool> &propagate_down, const vector<Blob<Dtype> *> &bottom) {}
 
         virtual void Forward_gpu(const vector<Blob<Dtype> *> &bottom,
-                                 const vector<Blob<Dtype> *> &top) {}
+                                 const vector<Blob<Dtype> *> &top);
 
         virtual void Backward_gpu(const vector<Blob<Dtype> *> &top,
-                                  const vector<bool> &propagate_down, const vector<Blob<Dtype> *> &bottom) {}
+                                  const vector<bool> &propagate_down, const vector<Blob<Dtype> *> &bottom){}
 
         int stride_;
         bool reverse_;
+        int batch_num_;
+        int channels_;
+        int reorged_channels_;
+        int height_, width_;
+        int reorged_height_, reorged_width_;
     };
 
 
