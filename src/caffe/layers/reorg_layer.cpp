@@ -42,7 +42,6 @@ namespace caffe {
         reorg_cpu(bottom_data, width_, height_,
                   channels_, batch_num_, stride_, reverse_, top_data);
     }
-
     INSTANTIATE_CLASS(ReorgLayer);
     REGISTER_LAYER_CLASS(Reorg);
 

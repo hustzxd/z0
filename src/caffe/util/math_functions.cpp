@@ -11,8 +11,8 @@ namespace caffe {
 
     template<typename Dtype>
     void reorg_cpu(const Dtype *bottom_data, const int b_w, const int b_h,
-                   const int b_c, const int b_n,
-                   const int stride, const bool forward, Dtype *top_data) {
+                   const int b_c, const int b_n, const int stride,
+                   const bool forward, Dtype *top_data) {
         int t_c = b_c / (stride * stride);
         int t_w = b_w * stride;
         int t_h = b_h * stride;
