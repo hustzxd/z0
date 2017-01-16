@@ -1,5 +1,6 @@
 #include "caffe/layers/reorg_layer.hpp"
 #include "caffe/util/math_functions.hpp"
+
 namespace caffe {
 
     template<typename Dtype>
@@ -39,10 +40,24 @@ namespace caffe {
                                         const vector<Blob<Dtype> *> &top) {
         const Dtype *bottom_data = bottom[0]->cpu_data();
         Dtype *top_data = top[0]->mutable_cpu_data();
-         reorg_cpu(bottom_data, width_, height_,
-                   channels_, batch_num_, stride_, reverse_, top_data);
+        reorg_cpu(bottom_data, width_, height_,
+                  channels_, batch_num_, stride_, reverse_, top_data);
     }
+
+    template<typename Dtype>
+    void ReorgLayer<Dtype>::Backward_cpu(const vector<Blob<Dtype> *> &top, const vector<bool> &propagate_down,
+                                         const vector<Blob<Dtype> *> &bottom) {
+        if(!propagate_down[0]){
+            return;
+        }
+        const Dtype *top_diff = top[0]->cpu_diff();
+        Dtype *bottom_diff = bottom[0]->mutable_cpu_diff();
+        reorg_cpu(top_diff, width_, height_,
+                  channels_, batch_num_, stride_, !reverse_, bottom_diff);
+    }
+
     INSTANTIATE_CLASS(ReorgLayer);
+
     REGISTER_LAYER_CLASS(Reorg);
 
 }  // namespace caffe
