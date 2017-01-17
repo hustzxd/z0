@@ -9,10 +9,10 @@
 
 namespace caffe {
 
-    template<>
-    void reorg_cpu(const double *bottom_data, const int b_w, const int b_h,
+    template<typename Dtype>
+    void reorg_cpu(const Dtype *bottom_data, const int b_w, const int b_h,
                    const int b_c, const int b_n, const int stride,
-                   const bool forward, double *top_data) {
+                   const bool forward, Dtype *top_data) {
         int t_c = b_c / (stride * stride);
         int t_w = b_w * stride;
         int t_h = b_h * stride;
@@ -34,31 +34,14 @@ namespace caffe {
             }
         }
     }
-    template<>
-    void reorg_cpu(const float *bottom_data, const int b_w, const int b_h,
-                   const int b_c, const int b_n, const int stride,
-                   const bool forward, float *top_data) {
-        int t_c = b_c / (stride * stride);
-        int t_w = b_w * stride;
-        int t_h = b_h * stride;
-        for (int n = 0; n < b_n; n++) {
-            for (int c = 0; c < b_c; c++) {
-                for (int h = 0; h < b_h; h++) {
-                    for (int w = 0; w < b_w; w++) {
-                        int bottom_index = w + b_w * (h + b_h * (c + b_c * n));
-                        int c2 = c % t_c;
-                        int offset = c / t_c;
-                        int w2 = w * stride + offset % stride;
-                        int h2 = h * stride + offset / stride;
-                        int top_index = w2 + t_w * (h2 + t_h * (c2 + t_c * n));
-                        if (forward) top_data[top_index] = bottom_data[bottom_index];
-                        else
-                            top_data[bottom_index] = bottom_data[top_index];
-                    }
-                }
-            }
-        }
-    }
+    template
+    void reorg_cpu<double>(const double *bottom_data, const int b_w, const int b_h,
+                           const int b_c, const int b_n, const int stride,
+                           const bool forward, double *top_data);
+    template
+    void reorg_cpu<float>(const float *bottom_data, const int b_w, const int b_h,
+                          const int b_c, const int b_n, const int stride,
+                          const bool forward, float *top_data);
     template<>
     void caffe_cpu_gemm<float>(const CBLAS_TRANSPOSE TransA,
                                const CBLAS_TRANSPOSE TransB, const int M, const int N, const int K,
