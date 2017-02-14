@@ -8,6 +8,55 @@
 #include "caffe/util/rng.hpp"
 
 namespace caffe {
+    template<typename Dtype>
+    void softmax(Dtype *input, int n, Dtype temp, Dtype *output) {
+        int i;
+        Dtype sum = 0;
+        Dtype largest = -FLT_MAX;
+        for (i = 0; i < n; ++i) {
+            if (input[i] > largest) largest = input[i];
+        }
+        for (i = 0; i < n; ++i) {
+            Dtype e = exp(input[i] / temp - largest / temp);
+            sum += e;
+            output[i] = e;
+        }
+        for (i = 0; i < n; ++i) {
+            output[i] /= sum;
+        }
+    }
+
+    template
+    void softmax(float *input, int n, float temp, float *output);
+
+    template
+    void softmax(double *input, int n, double temp, double *output);
+
+
+    template<typename Dtype>
+    void flatten(Dtype *out, int area, int channel, int batch, bool forward) {
+        Dtype *swap = (Dtype *) malloc((size_t) (area * channel * batch) * sizeof(Dtype));
+        int i, c, b;
+        for (b = 0; b < batch; ++b) {
+            for (c = 0; c < channel; ++c) {
+                for (i = 0; i < area; ++i) {
+                    int i1 = b * channel * area + c * area + i;
+                    int i2 = b * channel * area + i * channel + c;
+                    if (forward) swap[i2] = out[i1];
+                    else swap[i1] = out[i2];
+                }
+            }
+        }
+        caffe_copy(area * channel * batch, swap, out);
+        free(swap);
+    }
+
+    template
+    void flatten(float *out, int size, int channel, int batch, bool forward);
+
+    template
+    void flatten(double *out, int size, int channel, int batch, bool forward);
+
 
     template<typename Dtype>
     void reorg_cpu(const Dtype *bottom_data, const int b_w, const int b_h,
@@ -34,14 +83,17 @@ namespace caffe {
             }
         }
     }
+
     template
     void reorg_cpu<double>(const double *bottom_data, const int b_w, const int b_h,
                            const int b_c, const int b_n, const int stride,
                            const bool forward, double *top_data);
+
     template
     void reorg_cpu<float>(const float *bottom_data, const int b_w, const int b_h,
                           const int b_c, const int b_n, const int stride,
                           const bool forward, float *top_data);
+
     template<>
     void caffe_cpu_gemm<float>(const CBLAS_TRANSPOSE TransA,
                                const CBLAS_TRANSPOSE TransB, const int M, const int N, const int K,

@@ -13,6 +13,16 @@
 namespace caffe {
 
     template<typename Dtype>
+    void softmax(Dtype *input, int n, Dtype temp, Dtype *output);
+
+    static inline double logistic_activate(double x) { return 1. / (1 + exp(-x)); }
+
+    static inline float logistic_activate(float x) { return (float) (1. / (1 + exp(-x))); }
+
+    template<typename Dtype>
+    void flatten(Dtype *out, int area, int channel, int batch, bool forward);
+
+    template<typename Dtype>
     void reorg_cpu(const Dtype *bottom_data, const int b_w, const int b_h,
                    const int b_c, const int b_n, const int stride,
                    const bool forward, Dtype *top_data);
