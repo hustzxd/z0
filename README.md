@@ -1,3 +1,7 @@
+
+移植时用到的文件和步骤，详见[yolo2_in_caffe_tool](https://github.com/hustzxd/yolo2_to_caffe_tool)
+
+
 # Caffe
 
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
